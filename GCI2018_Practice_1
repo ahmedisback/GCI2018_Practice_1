@@ -1,9 +1,12 @@
+# Using a loop print 10 times "GCI is great"
 for i in range(10):
     print "GCI is great"
 
+# Ask the user for his/her name and then print "Hello (name), please to meet you!"
 user_input = raw_input("What Is Your Name?")
 print "Hello " + user_input + ", please to meet you!"
 
+# Print that name backwards
 def reverse(user_input):
     str=""
     for i in user_input:
